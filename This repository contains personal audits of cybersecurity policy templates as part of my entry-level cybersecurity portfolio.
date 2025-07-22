@@ -1,0 +1,38 @@
+# security-policy-audits
+Personal audit of password protection policies based on SANS templates.
+# Security Policy Audit – Password Protection Policy
+
+## Summary
+
+This is a professional review of the SANS Password Protection Policy. The document establishes guidelines for proper password use across an organization. This audit evaluates the policy’s strengths, weaknesses, and offers improvement recommendations aligned with current security best practices.
+
+**Original Policy Source:**  
+[SANS Password Protection Policy (PDF)](https://github.com/deepanshusood/SANS-Security-Policy-Templates/blob/main/password_protection_policy.pdf)
+
+## Strengths
+
+- **Complexity Requirements**: The policy requires passwords to meet complexity criteria, reducing the chance of successful brute-force attacks.
+- **Expiration Policy**: Passwords must be changed every 90 days, encouraging rotation to limit exposure.
+- **Account Lockouts**: Failed login attempts result in account lockout, helping defend against password-guessing attacks.
+- **Scope and Applicability**: The policy clearly applies to all employees and contractors, ensuring organization-wide coverage.
+- **Password Sharing Prohibited**: Strong stance against password sharing improves accountability and reduces insider risk.
+
+## Weaknesses
+
+- **No Multi-Factor Authentication (MFA)**: The policy doesn't require or mention MFA, which is now standard in most environments.
+- **No Mention of Password Managers**: It lacks guidance on secure storage of passwords, such as using password managers.
+- **Limited Password History Enforcement**: There’s no rule preventing users from reusing previous passwords.
+- **No Training or Phishing Awareness**: There’s no mention of user training to prevent social engineering attacks like phishing.
+
+## Recommendations
+
+1. **Enforce MFA**: Require multi-factor authentication for critical systems and remote access to improve identity assurance.
+2. **Encourage Password Managers**: Officially support or provide access to enterprise-grade password managers for secure credential storage.
+3. **Implement Password History Controls**: Prevent users from reusing the last 5–10 passwords to improve password hygiene.
+4. **Add Security Awareness Training**: Include mandatory user training on password best practices and social engineering prevention.
+5. **Audit and Monitoring Clause**: Add language around auditing authentication logs to detect and respond to credential abuse.
+
+## Conclusion
+
+The SANS Password Protection Policy is a strong baseline document, covering many essential practices. However, to stay aligned with evolving threats and compliance standards, it should be updated to include multi-factor authentication, password management tools, and employee training. These changes would significantly improve the organization's overall security posture.
+
